@@ -3,6 +3,6 @@ services:
     build:
       context: .
     ports:
-      - "8094:80"
+      - "8084:80"
     restart: always
 
