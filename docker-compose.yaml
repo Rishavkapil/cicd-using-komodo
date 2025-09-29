@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   web:
-    image: my-dockerhub-user/komodo-ci-demo:{{ build.number }}
+    image: my-dockerhub-user/komodo-ci-demo:latest
     ports:
       - "8084:80"
     restart: always
